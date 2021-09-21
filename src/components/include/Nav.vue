@@ -10,7 +10,7 @@
     class="
       navbar navbar-expand-lg navbar-light
       shadow
-      mb-5
+      mb-4
       bg-white
       rounded
       white
