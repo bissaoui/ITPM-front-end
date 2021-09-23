@@ -10,6 +10,7 @@
 </template>
 <script>
 import Nav from "@/components/include/Nav.vue";
+
 export default {
   components: {
     Nav,
