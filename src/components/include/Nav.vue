@@ -14,7 +14,7 @@
       mb-4
       bg-white
       rounded
-      white
+      whit
     "
     s
   >
@@ -68,9 +68,9 @@ export default {
 };
 </script>
 <style>
-.white {
+.whit {
   background-color: white;
-  color: #010066;
+  color: #010066 !important;
   font-family: "Cairo", sans-serif;
   font-size: 16px;
   text-transform: uppercase;
