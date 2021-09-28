@@ -35,26 +35,96 @@
       </button>
       <div class="collapse navbar-collapse editnav" id="navbarNavAltMarkup">
         <div class="navbar-nav ms-3 editnav">
-          <router-link
-            to="/institut"
-            class="nav-link active me-4"
-            aria-current="page"
-            href="#"
-            >L'Institut</router-link
-          >
-          <router-link to="/formation" class="nav-link me-4" href="#"
-            >Formation</router-link
-          >
-          <router-link to="/Espace_etudiant" class="nav-link me-4" href="#"
+          <li class="nav-item dropdown mr-4">
+            <router-link
+              class="nav-link dropdown-toggle"
+              to="/institut"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              L'Institut
+            </router-link>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li>
+                <router-link to="/Mot_du_directeur" class="dropdown-item"
+                  >Mot du directeur
+                </router-link>
+              </li>
+              <li>
+                <router-link to="/Presentation" class="dropdown-item"
+                  >Présentation
+                </router-link>
+              </li>
+              <li>
+                <router-link to="/Historique" class="dropdown-item"
+                  >Historique
+                </router-link>
+              </li>
+              <li>
+                <router-link to="/FORMATION_CONTINUE" class="dropdown-item"
+                  >Le Navire Ecole « AL MANAR »
+                </router-link>
+              </li>
+              <li>
+                <router-link to="/FORMATION_CONTINUE" class="dropdown-item"
+                  >Outils pédagogique et didactique
+                </router-link>
+              </li>
+              <li>
+                <router-link to="/FORMATION_CONTINUE" class="dropdown-item"
+                  >Organigramme
+                </router-link>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown mx-4">
+            <router-link
+              class="nav-link dropdown-toggle"
+              to="/institut"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Formation
+            </router-link>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li>
+                <router-link to="/TECHNICIEN" class="dropdown-item"
+                  >TECHNICIEN
+                </router-link>
+              </li>
+              <li>
+                <router-link to="/QUALIFICATION" class="dropdown-item"
+                  >QUALIFICATION
+                </router-link>
+              </li>
+              <li>
+                <router-link to="/SPECIALISATION" class="dropdown-item"
+                  >SPECIALISATION
+                </router-link>
+              </li>
+              <li>
+                <router-link to="/FORMATION_CONTINUE" class="dropdown-item"
+                  >FORMATION CONTINUE
+                </router-link>
+              </li>
+            </ul>
+          </li>
+
+          <router-link to="/Espace_etudiant" class="nav-link me-4"
             >Espace etudiant</router-link
           >
-          <router-link to="/demande_&_lien" class="nav-link me-4" href="#"
+
+          <router-link to="/demande_&_lien" class="nav-link me-4"
             >demande & lien
           </router-link>
-          <router-link to="/propos" class="nav-link me-4" href="#"
+          <router-link to="/propos" class="nav-link me-4"
             >à propos
           </router-link>
-          <router-link to="/Contact" class="nav-link me-4" href="#"
+          <router-link to="/Contact" class="nav-link me-4"
             >Contact
           </router-link>
         </div>

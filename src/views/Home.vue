@@ -700,12 +700,15 @@ export default {
   }
 }
 
-@media (max-width: 1045px) {
+@media (max-width: 1080px) {
   .tw:first-child {
     padding-top: 16%;
   }
   .tw {
     font-size: 30px;
+  }
+  .Htitle h2 {
+    font-size: 22px !important;
   }
 }
 
@@ -725,6 +728,12 @@ export default {
   .forum2 {
     display: block;
   }
+  .Htitle h2 {
+    font-size: 24px !important;
+  }
+  .titre {
+    font-size: 19px;
+  }
 }
 @media (max-width: 893px) {
   .tw:first-child {
@@ -743,11 +752,17 @@ export default {
   .card1 {
     height: 230px !important;
   }
+  div.chiffre {
+    font-size: 20px;
+  }
 
   .card1:hover .titre1 {
     height: 320px;
     margin-top: -233px !important;
     padding-top: 12px;
+  }
+  .Htitle h2 {
+    font-size: 22px !important;
   }
 }
 
