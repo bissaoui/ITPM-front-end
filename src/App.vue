@@ -7,13 +7,16 @@
     -->
   </div>
   <router-view />
+  <Footer />
 </template>
 <script>
 import Nav from "@/components/include/Nav.vue";
+import Footer from "@/components/include/Footer.vue";
 
 export default {
   components: {
     Nav,
+    Footer,
   },
 };
 </script>

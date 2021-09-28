@@ -351,21 +351,57 @@
                 <h2>LE NAVIRE ECOLE</h2>
                 <hr />
               </div>
-              <div class="cards"></div>
+              <div class="cards">
+                <img
+                  src="../assets/image/navire.gif"
+                  width="230"
+                  height="230"
+                  alt=""
+                  srcset=""
+                />
+                <div class="titre" style="margin-top: -85px">AL MANAR</div>
+              </div>
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12 col-12">
               <div class="Htitle1">
                 <h2>PRESENTATION</h2>
                 <hr />
               </div>
-              <div class="cards"></div>
+              <div class="cards">
+                <img
+                  src="../assets/image/anchor.svg"
+                  class="img-fluid"
+                  style="height: 100%"
+                  alt=""
+                  srcset=""
+                />
+                <div class="titre h" style="">
+                  PRESENTATION
+                  <hr />
+                  <p>
+                    l’institut de technologie des pêches maritimes de safi est
+                    un établissement relevant du département de la pêche
+                    maritime....
+                  </p>
+                  <a href="">Lire la suite</a>
+                </div>
+              </div>
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-12 forum1">
               <div class="Htitle1">
                 <h2>FORUM</h2>
                 <hr />
               </div>
-              <div class="cards"></div>
+              <div class="cards">
+                <a href="">
+                  <img
+                    src="../assets/image/forum.jpg"
+                    class="img-fluid"
+                    style="height: -webkit-fill-available"
+                    alt=""
+                  />
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -374,46 +410,193 @@
             <h2>FORUM</h2>
             <hr />
           </div>
-          <div class="cards"></div>
+          <div class="cards">
+            <a href="">
+              <img
+                src="../assets/image/forum.jpg"
+                style="height: -webkit-fill-available"
+                class="img-fluid"
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
+        <div class="Htitle">
+          <h2>L’ITPM</h2>
+          <hr />
+        </div>
+        <div class="actualite car mb-4">
+          <div
+            class="row justify-content-center text-center"
+            style="margin: 0 !important"
+          >
+            <div class="col-lg-5 col-sm-12">
+              <img
+                src="../assets/image/itpm.jpg"
+                class="img-fluid"
+                alt=""
+                srcset=""
+              />
+            </div>
+            <div class="col-lg-7 justify-content-center align-middle pt-4">
+              <h1>HISTORIQUE</h1>
+              <p class="historique pt-4">
+                Cet établissement est le plus ancien centre de formation
+                maritime à la pêche côtière du Royaume, il a été créé en 1951
+                sous le nom d’Ecole musulmane d’apprentissage maritime, et est
+                passé par plusieurs étapes : il a évolué en école
+                d’apprentissage maritime en 1957, puis en Centre de formation
+                professionnelle maritime en 1981, ensuite en centre de
+                qualification professionnelle maritime en 1985 et enfin en
+                Institut de Technologie des Pêches Maritimes depuis Juillet
+                1996. Il prend aujourd’hui une dimension nouvelle avec les
+                nouveaux bâtiments et équipements, dont la réalisation a pour
+                finalité d’accroître les capacités pédagogiques et d’accueil,
+                ainsi que d’améliorer les conditions de travail et de formation
+                théorique et pratique.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="actualite mb-4">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+              <div class="Htitle" style="width: 100%">
+                <h2>LIENS UTILES</h2>
+                <hr />
+              </div>
+              <div class="carde card1">
+                <img
+                  src="../assets/image/Lien.jpg"
+                  width="230"
+                  height="230"
+                  alt=""
+                  srcset=""
+                />
+                <div class="titre titre1">
+                  Institutions Nationales Et Les Organisations Internationales
+
+                  <hr />
+                  <div>...</div>
+                  <a href="">Lire la suite</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+              <div class="Htitle" style="width: 100%">
+                <h2>VISITE GUIDEE</h2>
+                <hr />
+              </div>
+              <div class="carde card1">
+                <img
+                  src="../assets/image/Visite.png"
+                  width="230"
+                  height="230"
+                  alt=""
+                  srcset=""
+                />
+                <div class="titre titre1">
+                  VISITE GUIDEE
+                  <hr />
+                  <div>...</div>
+                  <a href="">Lire la suite</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-12">
+              <div class="Htitle" style="width: 100%">
+                <h2>BULLETINS D'INFORMATION</h2>
+                <hr />
+              </div>
+              <div class="carde card1">
+                <img
+                  src="../assets/image/bulletin.png"
+                  width="230"
+                  height="230"
+                  alt=""
+                  srcset=""
+                />
+                <div class="titre titre1">
+                  BULLETINS D'INFORMATION
+                  <hr />
+                  <div>...</div>
+                  <a href="">Lire la suite</a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </template>
 <script>
-export default {};
-//#region - start of - number counter animation
-const counterAnim = (qSelector, start = 0, end, duration = 1000) => {
-  const target = document.querySelector(qSelector);
-  let startTimestamp = null;
-  const step = (timestamp) => {
-    if (!startTimestamp) startTimestamp = timestamp;
-    const progress = Math.min((timestamp - startTimestamp) / duration, 1);
-    target.innerText = Math.floor(progress * (end - start) + start);
-    if (progress < 1) {
-      window.requestAnimationFrame(step);
-    }
-  };
-  window.requestAnimationFrame(step);
-};
-//#endregion - end of - number counter animation
-var isOk = false;
+export default {
+  methods: {
+    calcul() {
+      const counterAnim = (qSelector, start = 0, end, duration = 1000) => {
+        const target = document.querySelector(qSelector);
+        let startTimestamp = null;
+        const step = (timestamp) => {
+          if (!startTimestamp) startTimestamp = timestamp;
+          const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+          target.innerText = Math.floor(progress * (end - start) + start);
+          if (progress < 1) {
+            window.requestAnimationFrame(step);
+          }
+        };
+        window.requestAnimationFrame(step);
+      };
+      //#endregion - end of - number counter animation
+      var isOk = false;
 
-document.addEventListener("scroll", () => {
-  if (window.scrollY > 500 && isOk == false) {
-    isOk = true;
-    counterAnim("#count1", 0, 300, 2500);
-    counterAnim("#count2", 0, 1250, 3000);
-    counterAnim("#count3", 0, 50, 2500);
-    counterAnim("#count4", 0, 50, 2500);
-  }
-});
+      document.addEventListener("scroll", () => {
+        if (window.scrollY > 500 && isOk == false) {
+          isOk = true;
+          counterAnim("#count1", 0, 300, 2500);
+          counterAnim("#count2", 0, 1250, 3000);
+          counterAnim("#count3", 0, 50, 2500);
+          counterAnim("#count4", 0, 50, 2500);
+        }
+      });
+    },
+  },
+  mounted() {
+    this.calcul();
+  },
+};
+//#region - start of - number counter animation
 </script>
 
 <style>
+.card1 img {
+  height: -webkit-fill-available !important;
+}
+.card1 {
+  height: 300px !important;
+}
+.card1:hover .titre1 {
+  height: 320px;
+  margin-top: -302px !important;
+  padding-top: 12px;
+}
+.historique {
+  text-align: justify;
+  width: 98%;
+  font-family: cursive;
+  font-size: large;
+  color: var(--bs-gray-900);
+}
+.h p {
+  font-size: 19px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
 .car {
   width: 80%;
-  height: 250px;
+  height: auto;
   padding: 3%;
   padding-top: 25px;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
@@ -475,6 +658,12 @@ document.addEventListener("scroll", () => {
   margin-top: -231px;
   padding-top: 12px;
 }
+.cards:hover .h {
+  height: 330px;
+  margin-top: -215px;
+  padding-top: 12px;
+}
+
 .presentation {
   background-image: url("../assets/image/Ecole.jpg");
   width: 80%;
@@ -548,6 +737,18 @@ document.addEventListener("scroll", () => {
     margin-top: -50px;
     font-size: 18px;
   }
+  .h p {
+    font-size: 15px;
+  }
+  .card1 {
+    height: 230px !important;
+  }
+
+  .card1:hover .titre1 {
+    height: 320px;
+    margin-top: -233px !important;
+    padding-top: 12px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -559,9 +760,6 @@ document.addEventListener("scroll", () => {
   }
   .tree {
     display: none;
-  }
-  .car {
-    height: 690px;
   }
 }
 
@@ -614,7 +812,7 @@ document.addEventListener("scroll", () => {
     padding-top: 28%;
   }
   .tw {
-    font-size: 13px;
+    font-size: 12px;
   }
   .presentation {
     background-image: url("../assets/image/Ecole.jpg");
