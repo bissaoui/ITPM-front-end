@@ -178,7 +178,7 @@
       <hr />
     </div>
 
-    <div class="actualite car mb-4">
+    <div class="actualite car mb-4 blan">
       <div class="row justify-content-center text-center">
         <div class="col-md-3">
           <div>
@@ -337,7 +337,10 @@
             <div class="info">
               Le département des pêches maritimes veille, à travers son ....
               <div>
-                <a class="text-decoration-none" style="color: #ffdc8a" href=""
+                <a
+                  class="text-decoration-none"
+                  style="color: #ffdc8a"
+                  href="/instutit/Mot_Du_Directeur"
                   >lire la suite</a
                 >
               </div>
@@ -367,7 +370,7 @@
                 <h2>PRESENTATION</h2>
                 <hr />
               </div>
-              <div class="cards">
+              <div class="cards blan">
                 <img
                   src="../assets/image/anchor.svg"
                   class="img-fluid"
@@ -425,7 +428,7 @@
           <h2>L’ITPM</h2>
           <hr />
         </div>
-        <div class="actualite car mb-4">
+        <div id="Histoire" class="actualite car mb-4 blan">
           <div
             class="row justify-content-center text-center"
             style="margin: 0 !important"
@@ -470,7 +473,7 @@
                 <img
                   src="../assets/image/Lien.jpg"
                   width="230"
-                  height="230"
+                  style="height: inherit"
                   alt=""
                   srcset=""
                 />
@@ -493,7 +496,7 @@
                 <img
                   src="../assets/image/Visite.png"
                   width="230"
-                  height="230"
+                  style="height: inherit"
                   alt=""
                   srcset=""
                 />
@@ -514,7 +517,7 @@
                 <img
                   src="../assets/image/bulletin.png"
                   width="230"
-                  height="230"
+                  style="height: inherit"
                   alt=""
                   srcset=""
                 />
@@ -571,6 +574,12 @@ export default {
 </script>
 
 <style>
+.blan {
+  background-color: white;
+}
+body {
+  background-image: url("../assets/image/back1.jpg");
+}
 .card1 img {
   height: -webkit-fill-available !important;
 }

@@ -2,18 +2,19 @@
 <template>
   <div class="footer w-100">
     <div class="row w-100">
-      <div class="col-md-2 m-3">
+      <div class="col-md-2 mt-4">
         <img
           src="../../assets/image/logo.jpg"
+          width="100"
           class="img-fluid"
           alt=""
           srcset=""
         />
         <h2 class="ITPM">ITPM</h2>
       </div>
-      <div class="col-md-9">
+      <div class="col-md-10">
         <div class="row">
-          <div class="col-md-5 link">
+          <div class="col-md-4 link">
             <h2>L'Institut</h2>
             <ul class="mt-4">
               <li>
@@ -38,7 +39,7 @@
               </li>
             </ul>
           </div>
-          <div class="col-md-3 link">
+          <div class="col-md-4 link">
             <h2>Formation</h2>
             <ul class="mt-4">
               <li>
@@ -121,7 +122,7 @@ export default {
 </script>
 <style>
 .link ul {
-  list-style: square;
+  list-style: none;
   text-align: start;
   margin-left: 20%;
 }
@@ -136,11 +137,11 @@ export default {
   margin-top: 5px;
 }
 .link h2 {
-  margin-top: 1rem !important;
+  margin-top: 4rem !important;
   font-family: "Cairo";
   font-size: 27px;
-  text-decoration: underline;
-  text-decoration-color: steelblue;
+  text-align: start;
+  margin-left: 20%;
 }
 .footer {
   height: auto;

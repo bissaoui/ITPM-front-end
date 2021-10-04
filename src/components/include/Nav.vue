@@ -48,32 +48,34 @@
             </router-link>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <li>
-                <router-link to="/Mot_du_directeur" class="dropdown-item"
+                <router-link
+                  to="/instutit/Mot_Du_Directeur"
+                  class="dropdown-item"
                   >Mot du directeur
                 </router-link>
               </li>
               <li>
-                <router-link to="/Presentation" class="dropdown-item"
+                <router-link to="/instutit/Presentation" class="dropdown-item"
                   >Présentation
                 </router-link>
               </li>
               <li>
-                <router-link to="/Historique" class="dropdown-item"
+                <router-link to="/#Histoire" class="dropdown-item"
                   >Historique
                 </router-link>
               </li>
               <li>
-                <router-link to="/FORMATION_CONTINUE" class="dropdown-item"
+                <router-link to="/instutit/Navire" class="dropdown-item"
                   >Le Navire Ecole « AL MANAR »
                 </router-link>
               </li>
               <li>
-                <router-link to="/FORMATION_CONTINUE" class="dropdown-item"
+                <router-link to="/Outils" class="dropdown-item"
                   >Outils pédagogique et didactique
                 </router-link>
               </li>
               <li>
-                <router-link to="/FORMATION_CONTINUE" class="dropdown-item"
+                <router-link to="/Organigrame" class="dropdown-item"
                   >Organigramme
                 </router-link>
               </li>
