@@ -47,52 +47,131 @@
         </div>
       </div>
     </div>
-      <div class="w-100 bg-body shadow mb-5 pb-3">
-        <div class="pres">
-        <div class="row">
-          <div class="col-lg-12 pt-5"><h2>Caractéristiques Techniques</h2></div>
-
-          <div class="col-lg-6  col-md-12 n pt-5 p-4 mx-5">
-          <ul style="text-align:justify;">
-<li><strong>Date de construction :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Décembre 1995</strong></li>
-<li><strong>Type : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Chalutier, palangrier de fond</strong></li>
-<li><strong>Coque :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; En acier</strong></li>
-<li><strong>Longueur hors-tout : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 24,40 M</strong></li>
-<li><strong>Longueur entre perpendiculaires :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 21,00 M</strong></li>
-<li><strong>Largeur Centre : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5,80 M</strong></li>
-<li><strong>Creux au centre :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2,55 M</strong></li>
-<li><strong>Tirant d’eau :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1,90 M</strong></li>
-<li><strong>Jauge brute :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 100 TJB </strong></li>
-<li><strong>Puissance du moteur :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 550 chevaux&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </strong></li>
-<li><strong>Vitesse de navigation :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9 Nœuds</strong></li>
-<li><strong>Equipage :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 10 personnes</strong></li>
-<li><strong>Elèves officiers pêche et machine :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 12 élèves</strong></li>
-<li><strong>Formateurs :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 02 personnes</strong></li>
-<li><strong>Capacité de la cale à poissons :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 18 M<sup>3</sup></strong></li>
-<li><strong>Capacité des soutes à combustible :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 20,000 L</strong></li>
-<li><strong>Capacité des ballasts à eau douce :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11,000 L</strong></li>
-<li><strong>Nombre de lits : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 24 lits pliants</strong></li>
-<li><strong>Hélice :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; à pas variables</strong></li>
-</ul>
-          </div>
-          <div class="col-lg-4  col-md-12 n pt-5 p-4 my-5">
-             <div class="imgg">
-          <img
+    <div class="w-100 bg-body shadow mb-5 pb-3 ">
+      <div class="pres">
+          <table class="table table-hover table-bordered m-2 p-1">
+            <thead>
+    <tr>
+      <th  colspan="2" >  
+        <div class="float-start mx-4" >  <img 
             src="../../assets/image/carac.png"
-            class="img-fluid   p-3 mb-5 bg-white rounded"
+            width="30"
             alt=""
-          />
-        </div>
+          />  Caractéristiques Techniques
+          </div></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Date de construction</td>
+      <td>Décembre 1995</td>
 
-          </div>
-
-        </div>
-        </div>
+    </tr>
+    <tr>
+      <td>Type</td>
+      <td>Chalutier, palangrier de fond</td>
+    </tr>
+    <tr>
+      <td >Coque</td>
+      <td>En acier</td>
+    </tr>
+    <tr>
+      <td >Longueur hors-tout</td>
+      <td>24,40 M</td>
+    </tr>
+    <tr>
+      <td >Longueur entre perpendiculaires</td>
+      <td>21,00 M</td>
+    </tr>
+    <tr>
+      <td >Largeur Centre</td>
+      <td>5,80 M</td>
+    </tr>
+    <tr>
+      <td >Creux au centre</td>
+      <td>2,55 M</td>
+    </tr>
+    <tr>
+      <td >Tirant d’eau</td>
+      <td>1,90 M</td>
+    </tr>
+    <tr>
+      <td >Puissance du moteur</td>
+      <td>550 chevaux</td>
+    </tr>
+    <tr>
+      <td >Vitesse de navigation</td>
+      <td>9 Nœuds</td>
+    </tr>
+    <tr>
+      <td >Equipage</td>
+      <td>10 personnes</td>
+    </tr>
+    <tr>
+      <td >Elèves officiers pêche et machine</td>
+      <td> 12 élèves</td>
+    </tr>
+    <tr>
+      <td >Formateurs</td>
+      <td>02 personnes</td>
+    </tr>
+    <tr>
+      <td >Capacité de la cale à poissons </td>
+      <td>18 M<sup>3</sup></td>
+    </tr>
+    <tr>
+      <td >Capacité des soutes à combustible</td>
+      <td>20,000 L</td>
+    </tr>
+    <tr>
+      <td >Capacité des ballasts à eau douce</td>
+      <td>11,000 L</td>
+    </tr>
+    <tr>
+      <td >Nombre de lits</td>
+      <td>24 lits pliants</td>
+    </tr>
+    <tr>
+      <td >Hélice</td>
+      <td>à pas variables</td>
+    </tr>
+    
+  </tbody>
+            
+          </table>
       </div>
+    </div>
+ 
       <div class="w-100 bg-body shadow mb-5 pb-3">
         <div class="pres">
         <div class="row">
             <div class="col-lg-12 pt-5"><h2> Equipements de navigation :</h2></div>
+                      <div class="col-lg-6 col-md-12 mx-lg-5 mt-5  pt-5 p-4   ">
+            <img
+              src="../../assets/image/radar.png"
+              class="w-75"
+              alt=""
+            />
+          </div>
+          <div class="col-lg-4 mx-5 col-md-12 n pt-5 ">
+            <ul style="text-align:justify; width:85%">
+<li><strong>Radar</strong></li>
+<li><strong>Répétiteur de radar</strong></li>
+<li><strong>Compas magnétique</strong></li>
+<li><strong>Gyrocompas</strong></li>
+<li><strong>Emetteur-recepteur SSB</strong></li>
+<li><strong>Radio VHF</strong></li>
+<li><strong>Radiogoniomètre</strong></li>
+<li><strong>Fac-similé météo</strong></li>
+<li><strong>Système de navigation par satellite GPS</strong></li>
+<li><strong>Sondeur couleur</strong></li>
+<li><strong>Sondeur noir et blanc à papier</strong></li>
+<li><strong>Sonar </strong></li>
+<li><strong>Net-sonde (sondeur de filets)</strong></li>
+<li><strong>Un jeu d’engins de chalutier</strong></li>
+<li><strong>Un jeu d’engins de palangrier de poisson de fond</strong></li>
+</ul>
+          </div>
         </div>
           <div>
             <p class="link10 p-3 d-inline">
@@ -146,6 +225,7 @@ export default {
   text-align: justify;
   font-family: "Raleway";
   font-size: 14px;
+  color: gray;
 }
 .pres {
   background: white;
@@ -153,14 +233,13 @@ export default {
 }
 h1 {
   color: #010066;
-  font-family: "Raleway";
   font-size: 30px;
-  font-weight: bold;
   text-align: center;
+  font-family: "Cairo";
 }
 h2 {
   color: #010066;
-  font-family: "Agency FB", "arial";
+  font-family: "Cairo";
   font-size: 30px;
   font-weight: bold;
   text-align: center;
@@ -176,6 +255,9 @@ h5 {
   .imag {
     height: 300px;
   }
+}
+td {
+  text-align: left;
 }
 
 /* Link Style 10 */

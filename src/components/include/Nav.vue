@@ -156,4 +156,8 @@ export default {
     margin-left: 0px !important;
   }
 }
+#nav a {
+  font-weight: 100 !important;
+  color: #2c3e50;
+}
 </style>

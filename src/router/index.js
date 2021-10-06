@@ -1,7 +1,10 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
+import Formation from '../views/Formation.vue'
+import Actualite from '../views/Actualite.vue'
 import MotDirecteur from '../views/Institut/MotDirecteur.vue'
 import Presentation from '../views/Institut/Presentation.vue'
+import NotFound from '../components/NotFound.vue'
 import Navire from '../views/Institut/Navire.vue'
 
 const routes = [
@@ -9,6 +12,16 @@ const routes = [
     path: '/',
     name: 'Home',
     component: Home
+  },
+  {
+    path: '/Formation',
+    name: 'Formation',
+    component: Formation
+  },
+  {
+    path: '/Actualite',
+    name: 'Actualite',
+    component: Actualite
   },
   {
     path: '/instutit/Mot_Du_Directeur',
@@ -24,6 +37,12 @@ const routes = [
     path: '/instutit/Navire',
     name: 'Navire',
     component: Navire
+  },
+  {
+    name: 'NotFound',
+    component: NotFound,
+    path: '/:pathMatch(.*)*',
+
   },
   {
     path: '/about',

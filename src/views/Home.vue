@@ -8,6 +8,7 @@
   <div class="home">
     <div class="presentation mb-4">
       <div class="content shadow">
+        >
         <div class="text-center tw mb-5" s>
           <div class="typing-demo">Royaume Du Maroc</div>
           <div>Département De La Pêche Maritim</div>
@@ -17,14 +18,14 @@
     </div>
     <div class="Htitle">
       <h2>ACTUALITÉS</h2>
-      <span>Afficher tous</span>
+      <span> <a href="">Afficher tous</a> </span>
       <hr />
     </div>
 
     <div class="actualite mb-4">
       <div class="row">
         <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-          <div class="carde">
+          <div class="carde" data-aos="zoom-in">
             <img
               src="../assets/image/new.png"
               width="230"
@@ -41,7 +42,7 @@
           </div>
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-          <div class="carde">
+          <div class="carde" data-aos="zoom-in">
             <img
               src="../assets/image/Ecole.jpg"
               width="230"
@@ -59,7 +60,7 @@
         </div>
 
         <div class="col-lg-3 col-md-4 col-sm-6 col-12 tree">
-          <div class="carde">
+          <div class="carde" data-aos="zoom-in">
             <img
               src="../assets/image/logo.jpg"
               width="230"
@@ -76,7 +77,7 @@
           </div>
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6 col-12 one">
-          <div class="carde">
+          <div class="carde" data-aos="zoom-in">
             <img
               src="../assets/image/Ecole.jpg"
               width="230"
@@ -96,14 +97,14 @@
     </div>
     <div class="Htitle">
       <h2>FORMATION</h2>
-      <span>Afficher tous</span>
+      <span><a href="/Formation">Afficher tous</a> </span>
       <hr />
     </div>
 
     <div class="actualite mb-4 formation">
       <div class="row">
         <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-          <div class="carde">
+          <div class="carde" data-aos="fade-right">
             <img
               src="../assets/image/f1.jpg"
               width="230"
@@ -120,7 +121,7 @@
           </div>
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6 col-12">
-          <div class="carde">
+          <div class="carde" data-aos="fade-up">
             <img
               src="../assets/image/f2.jpg"
               width="230"
@@ -138,7 +139,7 @@
         </div>
 
         <div class="col-lg-3 col-md-4 col-sm-6 col-12 tree">
-          <div class="carde">
+          <div class="carde" data-aos="fade-up">
             <img
               src="../assets/image/f3.jpg"
               width="230"
@@ -155,7 +156,7 @@
           </div>
         </div>
         <div class="col-lg-3 col-md-4 col-sm-6 col-12 one">
-          <div class="carde">
+          <div class="carde" data-aos="fade-left">
             <img
               src="../assets/image/f4.jpg"
               width="230"
@@ -327,7 +328,7 @@
             <h2>MOT DU DIRECTEUR</h2>
             <hr />
           </div>
-          <div class="directeur">
+          <div class="directeur" data-aos="zoom-out" data-aos-duration="1000">
             <img
               src="../assets/image/directeur.jpg"
               class="d-block mx-lg-auto img-fluid"
@@ -354,7 +355,7 @@
                 <h2>LE NAVIRE ECOLE</h2>
                 <hr />
               </div>
-              <div class="cards">
+              <div class="cards" data-aos="zoom-out" data-aos-duration="1000">
                 <img
                   src="../assets/image/navire.gif"
                   width="230"
@@ -370,7 +371,11 @@
                 <h2>PRESENTATION</h2>
                 <hr />
               </div>
-              <div class="cards blan">
+              <div
+                class="cards blan"
+                data-aos="zoom-out"
+                data-aos-duration="1000"
+              >
                 <img
                   src="../assets/image/anchor.svg"
                   class="img-fluid"
@@ -386,7 +391,7 @@
                     un établissement relevant du département de la pêche
                     maritime....
                   </p>
-                  <a href="">Lire la suite</a>
+                  <a href="/instutit/Presentation">Lire la suite</a>
                 </div>
               </div>
             </div>
@@ -395,7 +400,7 @@
                 <h2>FORUM</h2>
                 <hr />
               </div>
-              <div class="cards">
+              <div class="cards" data-aos="zoom-out" data-aos-duration="1000">
                 <a href="">
                   <img
                     src="../assets/image/forum.jpg"
@@ -428,7 +433,12 @@
           <h2>L’ITPM</h2>
           <hr />
         </div>
-        <div id="Histoire" class="actualite car mb-4 blan">
+        <div
+          id="Histoire"
+          class="actualite car mb-4 blan"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        >
           <div
             class="row justify-content-center text-center"
             style="margin: 0 !important"
@@ -469,7 +479,11 @@
                 <h2>LIENS UTILES</h2>
                 <hr />
               </div>
-              <div class="carde card1">
+              <div
+                class="carde card1"
+                data-aos="flip-down"
+                data-aos-duration="1500"
+              >
                 <img
                   src="../assets/image/Lien.jpg"
                   width="230"
@@ -492,7 +506,11 @@
                 <h2>VISITE GUIDEE</h2>
                 <hr />
               </div>
-              <div class="carde card1">
+              <div
+                class="carde card1"
+                data-aos="flip-down"
+                data-aos-duration="1500"
+              >
                 <img
                   src="../assets/image/Visite.png"
                   width="230"
@@ -513,7 +531,11 @@
                 <h2>BULLETINS D'INFORMATION</h2>
                 <hr />
               </div>
-              <div class="carde card1">
+              <div
+                class="carde card1"
+                data-aos="flip-down"
+                data-aos-duration="1500"
+              >
                 <img
                   src="../assets/image/bulletin.png"
                   width="230"
@@ -877,6 +899,13 @@ body {
   font-size: large;
 }
 
+.Htitle span a {
+  text-decoration: none;
+  color: rgb(61, 61, 61);
+}
+.Htitle span a:hover {
+  text-decoration: underline;
+}
 .Htitle1 h2 {
   margin-bottom: -17px;
 }
