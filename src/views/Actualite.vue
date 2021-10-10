@@ -4,13 +4,33 @@
       <div class="w-100">
         <div class="w-100 imz fluid-img"></div>
       </div>
-      <div class="bg-white w-50 m-auto position-relative sousHead pt-5">
+      <div
+        class="bg-white w-50 m-auto pb-2 shadow position-relative sousHead pt-5"
+      >
         <h1 class="hmm fw-bold">
           AVIS AUX ELEVES DE LA 2EME ANNEE DE L’ITPM DE SAFI
         </h1>
         <p class="text-secondary">
           Publié aujourd’hui à 01h36, mis à jour à 11h42
         </p>
+      </div>
+      <div class="bg-white w-75 m-auto cnt shadow">
+        <p class="fs-3">
+          Il est porté à la connaissance des élèves de la 2ème année, que la
+          rentrée scolaire au titre de l’année scolaire 2021/2022 aura lieu le :
+          Mercredi 13 Octobre à 09H00 du matin.
+        </p>
+        <p class="fs-3">
+          A cet effet, vous êtes appelés à vous présenter à l’ITPM de Safi,
+          munis de :
+        </p>
+        <ul class="fs-4">
+          <li>** Passe sanitaire COVID 19 ou ayant reçu la 1ère dose</li>
+          <li>** Besoins scolaires</li>
+          <li>** Vos livrés maritimes.</li>
+          <li>** Frais d’assurance annuelle (86DHS).</li>
+        </ul>
+        <p class="fs-2  text-danger">N.B : Les cheveux doivent être correctement coupées</p>
       </div>
     </div>
   </div>
@@ -22,8 +42,15 @@
 .hmm {
   font-family: "cairo";
 }
+.cnt {
+  text-align: justify;
+  padding: 50px;
+}
+.cnt {
+  height: 500px;
+  margin-top: -90px !important;
+}
 .sousHead {
-  height: 200px;
   top: -125px;
 }
 
@@ -37,65 +64,48 @@
   font-size: 30px;
   font: bold;
 }
-.carde {
-  height: 400px;
-  box-shadow: 0 0 0 !important;
-}
-.carde h4 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  color: #464a54;
-}
 .imz {
   height: 500px;
-  background-image: url(/img/p2.88c6702a.jpg);
+  background-image: url("../assets/image/p2.jpg");
   z-index: 0;
   background-size: cover;
   background-position-y: 55%;
   background-position-x: 52%;
 }
-.image {
-  width: 85%;
-  margin: auto;
-  margin-top: 2em;
-  height: 220px;
-}
-.carde:hover {
-  transform: translateY(-12px);
-  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
-}
-.btn-primary {
-  background: #010066;
-  border: #010066;
-}
 
-.content h1 {
-  font-family: "Raleway";
-  padding: 10%;
-  text-align: justify;
-}
 @media (max-width: 870px) {
   .imz {
     height: 300px;
   }
-
-  .imz .content {
-    height: 300px;
+  .sousHead h1 {
+    font-size: 20px;
+  }
+  .sousHead {
+    top: -100px;
+  }
+  .cnt {
+    margin-top: -65px !important;
+  }
+  .sousHead p {
+    font-size: 11px;
   }
 }
 @media (max-width: 570px) {
   .imz {
     height: 250px;
   }
-
-  .imz .content {
-    height: 250px;
+  .sousHead h1 {
+    font-size: 19px;
   }
-
-  .content h1 {
-    font-size: 17px;
-    text-align: justify;
-    padding: 12%;
+  .sousHead {
+    width: 75% !important;
+    top: -100px;
+  }
+  .cnt {
+    margin-top: -65px !important;
+  }
+  .sousHead p {
+    font-size: 11px;
   }
 }
 

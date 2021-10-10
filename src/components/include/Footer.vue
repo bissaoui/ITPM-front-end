@@ -130,7 +130,6 @@ export default {
   text-decoration: none !important;
   color: aliceblue;
   font-family: "Cairo";
-  font-weight: bold;
 }
 
 .link ul li {
