@@ -6,77 +6,10 @@
       <a href="/Formations" class="m-1 text-decoration-none"> formations </a>
       <span class="">›</span>
       <a href="" class="m-1 text-decoration-none"> Qualification </a>
+      <span class="">›</span>
+      <a href="" class="m-1 text-decoration-none"> Mécanicien Pratique; </a>
     </div>
-    <div class="bodyy">
-      <div class="w-100">
-        <div class="w-100 imz fluid-img"></div>
-      </div>
-      <div
-        class="bg-white w-50 m-auto pb-2 shadow position-relative sousHead pt-5"
-      >
-        <h1 class="hmm fw-bold">Qualification</h1>
-      </div>
-      <div class="bg-white w-100 m-auto cnt shadow">
-        <h1 class="">Filières</h1>
-        <hr class="w-100" />
-        <div class="row">
-          <div class="col-12 col-md-6 col-lg-4" style="text-align: center">
-            <div class="carde rounded bg-white w-100">
-              <div class="image">
-                <img
-                  src="../assets/image/f22.jpeg"
-                  style="height: -webkit-fill-available"
-                  alt=""
-                />
-              </div>
-              <h4 class="mt-3">Mécanicien Pratique</h4>
-              <div>
-                <div class="btn btn-primary rounded-pill p-2 px-5 mt-2">
-                  Découvrir
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4" style="text-align: center">
-            <div class="carde rounded bg-white w-100">
-              <div class="image">
-                <img
-                  src="../assets/image/f11.jpg"
-                  style="height: -webkit-fill-available"
-                  alt=""
-                />
-              </div>
-              <h4 class="mt-3">Patron de pêche côtière</h4>
-              <div>
-                <div class="btn btn-primary rounded-pill p-2 px-5 mt-2">
-                  Découvrir
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <h1 class="">Condition d’admission</h1>
-        <hr class="w-100" />
-        <div class="text-start">
-          <div class="fs-4 text-danger">
-            <b>Pour les nouveaux candidats </b>
-          </div>
-          <ul class="text-secondary">
-            <li>9ème année de l’enseignement fondamental</li>
-            <li>
-              Etre âgé de moins 25 ans Aptitude physique à exercer la fonction
-              de marin.
-            </li>
-          </ul>
-          <div class="fs-4 text-danger">
-            <b>Pour les marins en activité Certificat de spécialisation </b>
-          </div>
-          <ul class="text-secondary">
-            <li>Agé de moins 40 ans.</li>
-          </ul>
-        </div>
-      </div>
-    </div>
+    <div class="bodyy"></div>
   </div>
 </template>
 <style scoped>
