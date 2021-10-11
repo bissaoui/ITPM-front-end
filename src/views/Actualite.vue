@@ -42,18 +42,16 @@
 .hmm {
   font-family: "cairo";
 }
+
 .cnt {
+  height: auto;
+  margin-top: -90px !important;
   text-align: justify;
   padding: 50px;
-}
-.cnt {
-  height: 500px;
-  margin-top: -90px !important;
 }
 .sousHead {
   top: -125px;
 }
-
 .containrer {
   width: 80% !important;
   margin: auto;
@@ -88,6 +86,15 @@
   }
   .sousHead p {
     font-size: 11px;
+  }
+  .fs-3{
+    font-size: 15px !important;
+  }
+   .fs-4{
+    font-size: 14px !important;
+  }
+   .fs-2{
+    font-size: 13px !important;
   }
 }
 @media (max-width: 570px) {

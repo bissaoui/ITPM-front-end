@@ -97,7 +97,7 @@
     </div>
     <div class="Htitle">
       <h2>FORMATION</h2>
-      <span><a href="/Formation">Afficher tous</a> </span>
+      <span><a href="/Formations">Afficher tous</a> </span>
       <hr />
     </div>
 
