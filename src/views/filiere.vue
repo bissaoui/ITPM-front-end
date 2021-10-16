@@ -1,5 +1,5 @@
 <template>
-  <div class="containrer mb-5">
+  <div class="containrer mb-5 m-auto">
     <div class="text-start mb-3">
       <a href="/" class="m-1 text-decoration-none"> Accueil </a>
       <span class="">›</span>
@@ -7,138 +7,90 @@
       <span class="">›</span>
       <a href="" class="m-1 text-decoration-none"> Qualification </a>
       <span class="">›</span>
-      <a href="" class="m-1 text-decoration-none"> Mécanicien Pratique; </a>
+      <a href="" class="m-1 text-decoration-none"> Mécanicien Pratique </a>
     </div>
-    <div class="bodyy"></div>
+    <div class="bg-white h-100 p-2">
+      <div class="row p-4">
+        <div class="col-lg-8">
+          <img
+            src="../assets/image/f1.jpg"
+            class="w-100 shadow"
+            alt=""
+            srcset=""
+          />
+        </div>
+        <div class="col-lg-4 actualites">
+          <h1>Actualite</h1>
+          <div class="my-5 w-75 m-auto">
+            <h4>acct 1</h4>
+
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+              sunt rem aut praesentium omnis qui explicabo modi, odit molestias
+              nostrum voluptatibus.
+            </p>
+          </div>
+          <div class="my-5 w-75 m-auto">
+            <h4>acct 1</h4>
+
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat
+              distinctio fuga accusantium numquam dolorem modi quas, cum placeat
+              quia alias. At dolorum
+            </p>
+          </div>
+          <div class="my-5 w-75 m-auto">
+            <h4>acct 1</h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Quibusdam provident tenetur , corporis!
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-8">
+          <h1 class="p-2">Mécanicien Pratique</h1>
+        </div>
+        <div class="col-lg-8 text-start text-secondary">
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit
+            voluptate illo mollitia. Alias sapiente sequi quis veritatis
+            repellat ducimus commodi accusamus harum dolorum, cum velit
+            consequatur molestiae deserunt praesentium a? Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Sint dolore laborum cupiditate
+            nemo doloribus autem odit, eveniet perspiciatis explicabo blanditiis
+            aut labore libero. Nam voluptatum distinctio nesciunt assumenda
+            impedit corporis. Consectetur quisquam blanditiis cumque dolore!
+            Debitis quaerat suscipit sit itaque molestias asperiores? Pariatur,
+            laborum cum quia autem atque sed quae doloribus incidunt iusto natus
+            inventore, asperiores ducimus voluptates amet! Possimus? Accusamus
+            doloribus a repellat culpa, optio odio magnam, voluptatum nesciunt
+            labore, error aut deleniti tempore? Dolorum culpa natus dignissimos
+            suscipit rerum eius illum voluptatem nobis, quam veniam quas quaerat
+            ipsum. Voluptates neque totam exercitationem cumque. Voluptatum
+            blanditiis aliquid quod reprehenderit obcaecati est veniam ex,
+            laborum natus reiciendis id, error modi. Deleniti laborum optio quos
+            qui distinctio veniam, iure doloremque. Nostrum. Consequatur aliquam
+            nulla in veniam quas aliquid reprehenderit velit dolorem sequi fugit
+            cupiditate eaque rem illum molestiae, eveniet voluptates voluptas
+            vero. Illo officiis eveniet repellat architecto, omnis animi
+            consequatur possimus!
+          </p>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=ABeeZee&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cairo:wght@900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=ABeeZee&family=Roboto&display=swap");
-.hmm {
-  font-family: "cairo";
-  margin-top: -15px;
-  padding: 40px;
+.containrer {
+  width: 80%;
 }
 a {
   color: #665c5c !important;
 }
-
-.carde {
-  height: 400px;
-  box-shadow: 0 0 0 !important;
-}
-.carde h4 {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  color: #464a54;
-}
-
-.image {
-  width: 75%;
-  margin: auto;
-  margin-top: 2em;
-  height: 220px;
-}
-.carde:hover {
-  transform: translateY(-12px);
-  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
-}
-.btn-primary {
-  background: #010066;
-  border: #010066;
-}
-.cnt {
-  height: auto;
-  margin-top: -90px !important;
-  text-align: justify;
-  padding: 50px;
-}
-.sousHead {
-  top: -125px;
-}
-.containrer {
-  width: 80% !important;
-  margin: auto;
-}
-.head h1 {
-  color: #010066;
-  font-family: "Raleway";
-  font-size: 30px;
-  font: bold;
-}
-.imz {
-  height: 500px;
-  background-image: url("../assets/image/f2.jpg");
-  z-index: 0;
-  background-size: cover;
-  background-position-y: 55%;
-  background-position-x: 52%;
-}
-
-@media (max-width: 870px) {
-  .imz {
-    height: 300px;
-  }
-  .sousHead h1 {
-    font-size: 20px;
-  }
-  .sousHead {
-    top: -100px;
-  }
-  .cnt {
-    margin-top: -65px !important;
-  }
-  .sousHead p {
-    font-size: 11px;
-  }
-  .fs-3 {
-    font-size: 15px !important;
-  }
-  .fs-4 {
-    font-size: 14px !important;
-  }
-  .fs-2 {
-    font-size: 13px !important;
-  }
-}
-@media (max-width: 570px) {
-  .imz {
-    height: 250px;
-  }
-  .sousHead h1 {
-    font-size: 19px;
-  }
-  .sousHead {
-    width: 75% !important;
-    top: -100px;
-  }
-  .cnt {
-    margin-top: -65px !important;
-  }
-  .sousHead p {
-    font-size: 11px;
-  }
-}
-
-.content {
-  background-color: rgba(0, 0, 0, 0.41);
-  z-index: 1;
-  width: 100%;
-  height: 370px;
-}
-
-@keyframes typing {
-  from {
-    width: 0;
-  }
-}
-
-@keyframes blink {
-  50% {
-    border-color: transparent;
-  }
+.actualites {
 }
 </style>
 <script >

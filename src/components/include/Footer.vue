@@ -87,7 +87,7 @@
         <div class="">
           <div class="d-flex justify-content-center">
             <div class="mx-4 my-2">
-              <a href="">
+              <a href="https://www.facebook.com/itpm.safi.ac.ma/">
                 <img src="../../assets/image/faceboo.svg" alt="" />
               </a>
             </div>

@@ -35,7 +35,7 @@
       </button>
       <div class="collapse navbar-collapse editnav" id="navbarNavAltMarkup">
         <div class="navbar-nav ms-3 editnav">
-          <li class="nav-item dropdown mr-4">
+          <li class="nav-item dropdown mx-3">
             <router-link
               class="nav-link dropdown-toggle"
               to="/institut"
@@ -70,18 +70,23 @@
                 </router-link>
               </li>
               <li>
+                <router-link to="/annexes" class="dropdown-item"
+                  >centres de formation annexes à l'itpm
+                </router-link>
+              </li>
+              <li>
                 <router-link to="/Outils" class="dropdown-item"
                   >Outils pédagogique et didactique
                 </router-link>
               </li>
               <li>
                 <router-link to="/Organigrame" class="dropdown-item"
-                  >Organigramme
+                  >Organigramme / rh
                 </router-link>
               </li>
             </ul>
           </li>
-          <li class="nav-item dropdown mx-4">
+          <li class="nav-item dropdown mx-3">
             <router-link
               class="nav-link dropdown-toggle"
               to="/institut"
@@ -110,18 +115,82 @@
               </li>
               <li>
                 <router-link to="/FORMATION_CONTINUE" class="dropdown-item"
-                  >FORMATION CONTINUE
+                  >activité socio professionnelles
+                </router-link>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown mx-3">
+            <router-link
+              class="nav-link dropdown-toggle"
+              to="/institut"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              admission
+            </router-link>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li>
+                <router-link to="/admission/processus" class="dropdown-item"
+                  >processus d'admission
+                </router-link>
+              </li>
+              <li>
+                <router-link to="/preinscription" class="dropdown-item"
+                  >preinscription en ligne
+                </router-link>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown mx-3">
+            <router-link
+              class="nav-link dropdown-toggle"
+              to="/Etudiant"
+              id="navbarDropdownMenuLink"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              espaces étudiants
+            </router-link>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li>
+                <router-link to="/Etudiant/pedagogiques" class="dropdown-item"
+                  >activités pedagogiques
+                </router-link>
+              </li>
+              <li>
+                <router-link to="/Etudiant/parascolaires" class="dropdown-item"
+                  >activités parascolaires
+                </router-link>
+              </li>
+              <li>
+                <router-link to="/Etudiant/stage" class="dropdown-item"
+                  >stage
+                </router-link>
+              </li>
+              <li>
+                <router-link to="/Etudiant/insertion" class="dropdown-item"
+                  >insertion professionnelle
+                </router-link>
+              </li>
+              <li>
+                <router-link to="/laureats" class="dropdown-item"
+                  >laureats
+                </router-link>
+              </li>
+              <li>
+                <router-link to="/Etudiant/vie" class="dropdown-item"
+                  >vie étudiants
                 </router-link>
               </li>
             </ul>
           </li>
 
-          <router-link to="/Espace_etudiant" class="nav-link me-4"
-            >Espace etudiant</router-link
-          >
-
-          <router-link to="/demande_&_lien" class="nav-link me-4"
-            >demande & lien
+          <router-link to="/Cooperation" class="nav-link me-4"
+            >Cooperation
           </router-link>
           <router-link to="/propos" class="nav-link me-4"
             >à propos

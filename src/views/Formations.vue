@@ -1,5 +1,11 @@
 <template>
-  <div class="container">
+  <div class="x m-auto">
+    <div class="text-start mb-3">
+      <a href="/" class="m-1 text-decoration-none"> Accueil </a>
+      <span class="">›</span>
+      <a href="/Formations" class="m-1 text-decoration-none"> formations </a>
+    </div>
+
     <div class="bodyy">
       <div class="w-100">
         <div class="w-100 imz fluid-img">
@@ -115,6 +121,9 @@
   background-size: cover;
   z-index: 0;
 }
+.x {
+  width: 80%;
+}
 .image {
   width: 75%;
   margin: auto;
@@ -135,6 +144,9 @@
   padding: 10%;
   text-align: justify;
 }
+a {
+  color: #665c5c !important;
+}
 @media (max-width: 870px) {
   .imz {
     height: 300px;
@@ -142,6 +154,10 @@
 
   .imz .content {
     height: 300px;
+  }
+  .content h1 {
+    font-size: 25px;
+    text-align: justify;
   }
 }
 @media (max-width: 570px) {
@@ -164,7 +180,7 @@
   background-color: rgba(0, 0, 0, 0.41);
   z-index: 1;
   width: 100%;
-  height: 370px;
+  height: 100%;
 }
 
 @keyframes typing {
