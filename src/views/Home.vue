@@ -397,7 +397,7 @@
             </div>
             <div class="col-lg-12 col-md-12 col-sm-12 col-12 forum1">
               <div class="Htitle1">
-                <h2>FORUM</h2>
+                <h2>FORUM - ENVIRONNEMENT EXTÉRIEUR</h2>
                 <hr />
               </div>
               <div class="cards" data-aos="zoom-out" data-aos-duration="1000">
@@ -503,7 +503,7 @@
 
             <div class="col-lg-4 col-md-4 col-sm-6 col-12">
               <div class="Htitle" style="width: 100%">
-                <h2>VISITE GUIDEE</h2>
+                <h2>VISITE GUIDEE - GALERIE PHOTOS</h2>
                 <hr />
               </div>
               <div
